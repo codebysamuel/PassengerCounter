@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url(subway.jpg);
+  background-size: cover;  
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: linear-gradient(45deg, #02AAB0, #00CDAC);
+  padding: 4rem 6rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 14rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#increment-btn {
+  background-color: #1488CC;
+  margin: 12px;
+}
+
+#save-btn {
+  background-color: #2B32B2;
+  margin-bottom: 36px;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
